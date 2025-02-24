@@ -33,6 +33,7 @@ import net.runelite.api.ItemID;
 public enum Tab
 {
 	OVERVIEW("Overview", ItemID.OLD_NOTES),
+	FAVOURITE("Favourites", ItemID.STAR_BAUBLE),
 	CLOCK("Timers & Stopwatches", ItemID.WATCH),
 	BIRD_HOUSE("Bird Houses", ItemID.OAK_BIRD_HOUSE),
 	ALLOTMENT("Allotment Patches", ItemID.CABBAGE),
