@@ -142,5 +142,17 @@ public interface TimeTrackingConfig extends Config
 		description = "",
 		hidden = true
 	)
+
+	@ConfigItem(
+    		keyName = "favoriteItems",
+    		name = "Favorite Items",
+    		description = "Stores favorite farming patches or birdhouses",
+   		position = 10
+	)
+	default String favoriteItems()
+	{
+    		return "";
+	}
+
 	void setActiveTab(Tab t);
 }
